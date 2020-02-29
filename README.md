@@ -1,12 +1,7 @@
-# Ch3rryFlower64
-
-
-
 # FAQ
-- Works only for ios 10.1.1 and ios 10.2.1 downgrades (more versions s0n this version is just we can say test if it works snd taht stuff)
+- Works only for ios 10.1.1 and ios 10.2.1 downgrades (more versions s0n this version is just we can say test if it works and that stuff)
 - Tethered
 - only iPhone6,2(5s Global) supported (more devices s0n)
-
 
 # How to use
 - cd to files folder
@@ -20,5 +15,3 @@
 @tihmstar 
 @mosk_i
 @aXiomX
-
-

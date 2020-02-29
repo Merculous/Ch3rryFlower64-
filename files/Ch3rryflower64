@@ -1,4 +1,5 @@
 #!/bin/bash
+
 rm -rf __MACOSX
 rm -rf cool_shit.zip
 rm -rf Downgrade_Shit_1021.zip
@@ -22,15 +23,14 @@ rm -rf custom.ipsw
 rm -rf custom
 rm -rf Downgrade_Shit_1011.zip
 cd ../
+
 mv ipsw.zip ipsw.ipsw
 rm -rf custom
 rm -rf ipsw
 rm -rf shit_v2
 cd files
 
-
 clear
-
 
 echo "***Welcome to Ch3rryflower64***"
 sleep 1
@@ -46,25 +46,15 @@ sleep 1
 
 echo "Example: 10.3.3"
 echo "Enter iOS Downgrade version"
-
-
 read version
 
-
 echo "Please enter your ecid"
-
 read ecid
-
-
-
-
 
 echo "Patching files..."
 sleep 2
 
-if [ $version = 10.2.1 ]; 
-then 
-
+if [ $version = 10.2.1 ]; then 
     cd ../
     mv ipsw.ipsw ipsw.zip
     mkdir ipsw
@@ -116,14 +106,11 @@ then
     mv custom.zip custom.ipsw
     
     ./futurerestore -t apnonce.shsh custom.ipsw -b Mav7Mav8-7.60.00.Release.bbfw -s sep-firmware.n53.RELEASE.im4p -p BuildManifest_iPhone62_1033_OTA.plist -m BuildManifest_iPhone62_1033_OTA.plist
-    echo "Downgraded device succesfully"
+    echo "Downgraded device successfully"
     echo "Enjoy iOS $version"
-    fi
+fi
 
-
-if [ $version = 10.1.1 ]; 
-then 
-
+if [ $version = 10.1.1 ];  then 
     cd ../
     mv ipsw.ipsw ipsw.zip
     mkdir ipsw
@@ -173,23 +160,8 @@ then
     cd ../files
     mv custom.zip custom.ipsw
     
-    
-    
     ./futurerestore -t apnonce.shsh custom.ipsw -b Mav7Mav8-7.60.00.Release.bbfw -s sep-firmware.n53.RELEASE.im4p -p BuildManifest_iPhone62_1033_OTA.plist -m BuildManifest_iPhone62_1033_OTA.plist
-    echo "Downgraded device succesfully"
+    echo "Downgraded device successfully"
     echo "Enjoy iOS $version"
     
-    fi
-
-    
-    
-    
-    
-    
-    
-    
-    
-    
-        
-    
-
+fi
